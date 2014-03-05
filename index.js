@@ -1,3 +1,7 @@
 module.exports = require("autodafe").config({
-    http: true
-}).run();
+    baseUrl: __dirname,
+
+    components: {
+        http: true
+    }
+});
