@@ -3,6 +3,7 @@ module.exports = require("autodafe").config({
 
     components: {
         http: {
+            path: '../node_modules/autodafe-http/',
             port: 3000
         }
     }

@@ -1,25 +1,32 @@
 {
-    "name": "autodafe",
-    "description": "Autodafe Demo project. Just Hello World using autodafe-http component",
-    "keywords": ["demo", "autodafe", "http"],
-    "homepage": "http://autodafe.ws",
-    "version": "0.0.1",
-    "author": "Andrey Balakirev <balakirev.andrey@gmail.com>",
-    "contributors": [ "Vladimir Balakirev <bvlvl2003@rambler.ru>" ],
-    "main": "./framework/Autodafe",
-    "bugs": {
-        "url": "https://github.com/jifeon/autodafe/issues",
-        "email": "balakirev.andrey@gmail.com"
-    },
-    "repository": {
-        "type": "git",
-        "url": "http://github.com/jifeon/autodafe_hello_world.git"
-    },
-    "dependencies": {
-        "autodafe": "1.x.x",
-        "autodafe-http": "1.x.x"
-    },
-    "engines": {
-        "node": ">=0.10.0"
-    }
+  "name": "autodafe",
+  "description": "Autodafe Demo project. Just Hello World using autodafe-http component",
+  "keywords": [
+    "demo",
+    "autodafe",
+    "http"
+  ],
+  "homepage": "http://autodafe.ws",
+  "version": "0.0.1",
+  "author": "Andrey Balakirev <balakirev.andrey@gmail.com>",
+  "contributors": [
+    "Vladimir Balakirev <bvlvl2003@rambler.ru>"
+  ],
+  "main": "./framework/Autodafe",
+  "bugs": {
+    "url": "https://github.com/jifeon/autodafe/issues",
+    "email": "balakirev.andrey@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jifeon/autodafe_hello_world.git"
+  },
+  "dependencies": {
+    "autodafe": "1.x.x",
+    "autodafe-http": "1.x.x",
+    "vow": "~0.4.3"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
 }
